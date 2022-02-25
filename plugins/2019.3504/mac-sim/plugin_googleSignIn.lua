@@ -10,7 +10,6 @@ local function defaultFunction()
 	      if ( i == 1 ) then
 		  -- Do nothing; dialog will simply dismiss
 	      elseif ( i == 2 ) then
-		  -- Open URL if "Learn More" (second button) was clicked
 		  system.openURL( "https://solar2dmarketplace.com/plugins?GoogleSignIn_tech-scotth" )
 	      end
 	  end
